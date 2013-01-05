@@ -37,7 +37,6 @@ if [ -d $TEMP_DIR/$REPO_NAME ]; then
 fi
 
 git clone $GIT_ADDR $TEMP_DIR/$REPO_NAME
-touch $TEMP_DIR/$REPO_NAME/.$ENV
 
 if [ "$(ls -A $APP_DIR)" ]; then
     rm -rf $APP_DIR/*
@@ -47,4 +46,5 @@ mv $TEMP_DIR/$REPO_NAME/* $APP_DIR/
 rm -rf $TEMP_DIR/$REPO_NAME
 rm $APP_DIR/README.md
 rm $APP_DIR/deploy.sh
+touch $APP_DIR/.$ENV
 exit 0
