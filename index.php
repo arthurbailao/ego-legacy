@@ -63,7 +63,7 @@
           <div id="foto-foto-palmito" class="foto">Baggio confirma relacionamento</div>
           <div class="texto">
             <div class="wrapper-chapeu">
-              <p class="chapeu">torresmo</p>
+              <p class="chapeu">que vacilo!</p>
             </div>
 
             <div class="wrapper-titulo">
@@ -84,7 +84,7 @@
         <div id="foto-arthur" class="foto">Arthur Bilbão na balada (Instagram/ Reprodução)</div>
         <div class="texto">
           <div class="wrapper-chapeu">
-            <p class="chapeu">Haja disposição!</p>
+            <p class="chapeu">ousado</p>
           </div>
 
           <div class="wrapper-titulo">
