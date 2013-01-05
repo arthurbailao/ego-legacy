@@ -10,7 +10,7 @@
   $ego->add_paragraph("Um segurança confidenciou que houve empurra-empurra na saída da boate. A discussão teria ocorrido porque Arthur Bilbao pedia para o amigo voltar com ele, visto que tinha exagerado um pouco na bebida. No entanto, Marlos estava transtornado e, aos berros, gritava para quem quisesse ouvir: \"Sem a Mayara  eu não volto\". Envergonhados com a situação, os amigos tentavam controlar Marlos, mas só quem deu um jeito na situação foi a própria Mayara, que dizia para seu \"mozão\", apelido carinhoso pelo qual Marlos é chamado por ela, se conter.");
   $ego->add_paragraph("Desde então o casal vem se encontrando as escondidas. Mas os vizinhos de Mayara contam que Marlos praticamente mora na casa de seu affair, localizada na zona sul da cidade. Colegas de trabalho de Mayara, que atua em um grande banco privado na capital, também confirmaram que Marlos vai praticamente todos os dias da semana ao local \"verificar seu extrato\".");
   $ego->add_section("Lua de mel no Iate");
-  $ego->add_image("../imgs/iate2.jpg", "Revéillon será em grande estilo (Foto: EGO)", "300", "164");
+  $ego->add_image("../imgs/iate.jpg", "Revéillon será em grande estilo (Foto: EGO)", "300", "164");
   $ego->add_paragraph("Os pombinhos agora se preparam para virar o ano em grande estilo. Já confirmaram presença em uma festa que será promovida pelo CEO do Google, Lucas Diniz, que bancará do próprio bolso uma festa de gala no Pershing 115, o famoso iate de Eike Batista. Agora é esperar para ver se o casal vai se atracar no iate... ");
   $html = <<<EOD
         <p class="titulo"><strong>tudo</strong> sobre</p>
