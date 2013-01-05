@@ -102,7 +102,7 @@
   <div class="destaque destaque-secundario destaque-secundario-ego hentry">
     <div class="chamada ">
       <a class="animated" href="./profiles/marlos.php" title="Marlos Fernandes molha o cabelo">
-        <style type="text/css">#foto-marlos {background-image:url('./imgs/marlos_thumb.jpg'); background-repeat: no-repeat; background-position: top left; }</style>
+        <style type="text/css">#foto-marlos {background-image:url('./imgs/egomarlos1_thumb.jpg'); background-repeat: no-repeat; background-position: top left; }</style>
         <div id="foto-marlos" class="foto">Marlos Fernandes molha o cabelo</div>
         <div class="texto">
           <div class="wrapper-chapeu">
