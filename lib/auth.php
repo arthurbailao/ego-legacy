@@ -10,7 +10,7 @@ session_start();
 
 $url_action = (empty($_REQUEST['action'])) ? 'logIn' : $_REQUEST['action'];
 //$auth_realm = (isset($auth_realm)) ? $auth_realm : '';
-$auth_realm = "Bem vindo ao EGO - Automação na balada";
+$auth_realm = 'Bem vindo ao EGO - Automacao na balada';
 
 if (isset($url_action)) {
     if (is_callable($url_action)) {
@@ -27,7 +27,7 @@ function logIn() {
         if (!isset($_SESSION['login'])) {
             $_SESSION['login'] = TRUE;
             header('WWW-Authenticate: Basic realm="'.$auth_realm.'"');
-            header('HTTP/1.0 401 Unauthorized');
+            header('HTTP/1.0 401 Unauthorized; charset=utf-8');
             echo 'You must enter a valid login and password';
             echo '<p><a href="?action=logOut">Try again</a></p>';
             exit;
