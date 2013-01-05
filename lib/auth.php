@@ -3,7 +3,7 @@
 $_user_ = 'ego';
 $_password_ = 'cataputas';
 
-if(file_exists("../.production"))
+if(file_exists("/srv/www/www.ego.com/public_html/.production"))
     session_save_path("/tmp/session");
     
 session_start();
