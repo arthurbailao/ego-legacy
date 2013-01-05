@@ -9,7 +9,8 @@ if(file_exists("../.production"))
 session_start();
 
 $url_action = (empty($_REQUEST['action'])) ? 'logIn' : $_REQUEST['action'];
-$auth_realm = (isset($auth_realm)) ? $auth_realm : '';
+//$auth_realm = (isset($auth_realm)) ? $auth_realm : '';
+$auth_realm = "Bem vindo ao EGO - Automação na balada";
 
 if (isset($url_action)) {
     if (is_callable($url_action)) {
