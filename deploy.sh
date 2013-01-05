@@ -26,9 +26,9 @@ REPO_NAME=ego
 DEVELOPMENT_DIR=/var/www/ego
 PRODUCTION_DIR=/srv/www/www.ego.com/public_html
 
-if [ $1 == "development" ]; then
+if [ $ENV == "development" ]; then
     APP_DIR=$DEVELOPMENT_DIR
-elif [ $1 == "production" ]; then
+elif [ $ENV == "production" ]; then
     APP_DIR=$PRODUCTION_DIR
 fi
 
@@ -37,6 +37,7 @@ if [ -d $TEMP_DIR/$REPO_NAME ]; then
 fi
 
 git clone $GIT_ADDR $TEMP_DIR/$REPO_NAME
+touch $TEMP_DIR/$REPO_NAME/.$ENV
 
 if [ "$(ls -A $APP_DIR)" ]; then
     rm -rf $APP_DIR/*

@@ -3,7 +3,9 @@
 $_user_ = 'ego';
 $_password_ = 'cataputas';
 
-//session_save_path("/tmp/session");
+if(file_exists("../.production"))
+    session_save_path("/tmp/session");
+    
 session_start();
 
 $url_action = (empty($_REQUEST['action'])) ? 'logIn' : $_REQUEST['action'];
