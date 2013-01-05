@@ -1,5 +1,5 @@
 <?php
-//  require_once("../lib/auth.php");
+  require_once("../lib/auth.php");
   require_once("../lib/ego.php");
   $ego = new Ego("http://ego.globo.com/famosos/noticia/2013/01/namorada-de-bernardo-do-bbb-13-nega-que-ele-esteja-solteiro.html");
   $ego->author("Heitor Gomide");

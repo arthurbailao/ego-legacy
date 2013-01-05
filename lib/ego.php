@@ -23,7 +23,7 @@ class Ego
     
     //corrige os links
     foreach($this->html->find("a[href]") as $element) {
-      if($this->starts_with($element->href, "/") && $element->href != "/")
+      if($this->starts_with($element->href, "/") && $element->href != "/" )
         $element->href = "http://ego.globo.com".$element->href;
     }
     
@@ -32,6 +32,9 @@ class Ego
       if(preg_match("*mobile\|blackberry\|docomo\|fennec\|htc\|ip*", $element->innertext))
         $element->outertext = "";
     }
+    
+    //corrige localidade
+    $this->replace_html("span.locality", "Do EGO, em BH");
   }
 
   public function render() {
