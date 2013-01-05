@@ -94,7 +94,11 @@ class Ego
     if(!$this->replace_html("div.materia-assinatura p.author strong", $text))
       $this->prepend_html("div.materia-assinatura p.author", "<strong class=\"fn\">$text</strong>");
     return $this->html->find("div.materia-assinatura p.author strong");
-  } 
+  }
+  
+  public function add_section($text) {
+    return $this->append_html("div.materia-conteudo", "<p><strong>$text</strong></p>");
+  }
 
   public function add_paragraph($text) {
     return $this->append_html("div.materia-conteudo", "<p>$text</p>");
