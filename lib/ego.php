@@ -35,6 +35,11 @@ class Ego
     
     //corrige localidade
     $this->replace_html("span.locality", "Do EGO, em BH");
+
+    //corrige caminho do css
+    foreach($this->html->find("link[href=\"/fonts/typography.css\"]") as $element) {
+      $element->href = "fonts/typography.css";
+    }
   }
 
   public function render() {

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'ProximaNova-Thin';
+    src: url('http://ego.globo.com/fonts/eot/style_148516.eot');
+    src: url('http://ego.globo.com/fonts/eot/style_148516.eot?#iefix') format('embedded-opentype'),
+         url('http://ego.globo.com/fonts/woff/style_148516.woff') format('woff'),
+         url('http://ego.globo.com/fonts/ttf/style_148516.ttf') format('truetype'),
+         url('http://ego.globo.com/fonts/svg/style_148516.svg#ProximaNova-Thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-Light';
+    src: url('http://ego.globo.com/fonts/eot/style_148542.eot');
+    src: url('http://ego.globo.com/fonts/eot/style_148542.eot?#iefix') format('embedded-opentype'),
+         url('http://ego.globo.com/fonts/woff/style_148542.woff') format('woff'),
+         url('http://ego.globo.com/fonts/ttf/style_148542.ttf') format('truetype'),
+         url('http://ego.globo.com/fonts/svg/style_148542.svg#ProximaNova-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    src: url('http://ego.globo.com/fonts/eot/style_148534.eot');
+    src: url('http://ego.globo.com/fonts/eot/style_148534.eot?#iefix') format('embedded-opentype'),
+         url('http://ego.globo.com/fonts/woff/style_148534.woff') format('woff'),
+         url('http://ego.globo.com/fonts/ttf/style_148534.ttf') format('truetype'),
+         url('http://ego.globo.com/fonts/svg/style_148534.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-Semibold';
+    src: url('http://ego.globo.com/fonts/eot/style_148533.eot');
+    src: url('http://ego.globo.com/fonts/eot/style_148533.eot?#iefix') format('embedded-opentype'),
+         url('http://ego.globo.com/fonts/woff/style_148533.woff') format('woff'),
+         url('http://ego.globo.com/fonts/ttf/style_148533.ttf') format('truetype'),
+         url('http://ego.globo.com/fonts/svg/style_148533.svg#ProximaNova-Semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova-Bold';
+    src: url('http://ego.globo.com/fonts/eot/style_148543.eot');
+    src: url('http://ego.globo.com/fonts/eot/style_148543.eot?#iefix') format('embedded-opentype'),
+         url('http://ego.globo.com/fonts/woff/style_148543.woff') format('woff'),
+         url('http://ego.globo.com/fonts/ttf/style_148543.ttf') format('truetype'),
+         url('http://ego.globo.com/fonts/svg/style_148543.svg#ProximaNova-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
