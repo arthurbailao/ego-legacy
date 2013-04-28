@@ -7,12 +7,12 @@
 <div class="glb-grid-4 glb-primeiro area-topo-esquerda">
   <div class="destaque destaque-principal destaque-principal-vertical-ego">
     <div class="chamada ">
-      <a class="animated" href="./profiles/ludy.php" title="Ludy Lopes e Eric Ranieri">
-        <style type="text/css">#foto-ludy {background-image:url('./imgs/egoludy1_thumb.jpg'); background-repeat: no-repeat; background-position: top left; }</style>            
-        <div id="foto-ludy" class="foto">Ludy Lopes e Eric Ranieri</div>
+      <a class="animated" href="./profiles/heitor.php" title="Heitor abre o coração">
+        <style type="text/css">#foto-heitor {background-image:url('./imgs/egoheitor1_thumb.jpg'); background-repeat: no-repeat; background-position: top left; }</style>            
+        <div id="foto-heitor" class="foto">Heitor abre o coração</div>
         <div class="texto">
           <div class="wrapper-chapeu">
-            <p class="chapeu">agressiva</p>
+            <p class="chapeu">o tempo fechou</p>
             <div class="wrapper-comentarios">
               <span class="comentarios">0</span>
             </div>
@@ -20,8 +20,8 @@
 
           <h2 class="wrapper-titulo">
             <div class="animated titulo">
-              <span class="animated background">Ludy Lopes e Eric Ranieri</span>
-              <span class="foreground">Ludy Lopes e Eric Ranieri</span>
+              <span class="animated background">Heitor abre o coração</span>
+              <span class="foreground">Heitor abre o coração</span>
             </div>
           </h2>
         </div>
