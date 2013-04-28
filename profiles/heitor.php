@@ -16,7 +16,7 @@
   $ego->add_paragraph("Buiu saiu a caça de rapazes sedutores para que tentassem uma aproximação com Ludmila e provocasse o coração de Heitor. Não deu outra, Heitor Gomide perdeu o chão, se viu ameaçado. Tentou de tudo, sua mente começou a até mesmo criar situações inexplicáveis, ele perdia a razão numa tentativa frustrada de denegrir a imagem do tranquilo Bilbao para Lore, acompanhante de Gustavo Lima.");
   $ego->add_image("../imgs/oliver.jpg", "Pura sedução","200","280");
   $ego->add_paragraph("Ludmila Lopes se rendeu aos encantos de Oliver, um verdadeiro cara de atitude. Cenas ardentes ocorreram em público. Os amigos de Heitor não acreditavam no que estava acontecendo e preferiram não presenciar aquele momento com os próprios olhos. Pessoas ao redor que sentiram o clima constrangedor ficaram espantados. Marlos Fernandes, em tentativa desesperada de interromper o inevitável, ameaçou cuspir em Oliver.");
-  $ego->add_image("../imgs/egoheitor3.jpg", "Marlos ameaça cuspir, Buiú leva a mão a cabeça, Gustavo Lima se esconde com o balde e o público se espanta");
+  $ego->add_image("../imgs/egoheitor3.jpg", "Marlos ameaça cuspir, Buiú leva a mão à cabeça, Gustavo Lima se esconde com o balde e o público se espanta");
   $ego->add_paragraph(" Letícia Nogueira, empresária do ramo alimentício, comentou: \"A fila andou, eu te falei, não deu valor... agora chora\". Heitor Gomide deixou o local acabado e consolado pelo trapalhão Buiu, responsável pelo incidente.");
   $ego->render();
 ?>

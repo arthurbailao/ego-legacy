@@ -58,18 +58,18 @@
   <div class="destaque destaque-terciario destaque-terciario-ego hentry">
     <div class="duplo esquerda">
       <div class="chamada ">
-        <a class="animated" href="./profiles/palmito.php" title="Baggio confirma relacionamento">
-          <style type="text/css">#foto-foto-palmito {background-image:url('./imgs/egopalmito1_thumb.jpg'); background-repeat: no-repeat; background-position: top left; }</style>
-          <div id="foto-foto-palmito" class="foto">Baggio confirma relacionamento</div>
+        <a class="animated" href="./profiles/ludy.php" title="Ludmila Lopes e Eric Ranieri">
+          <style type="text/css">#foto-foto-ludy {background-image:url('./imgs/egoludy1_thumb.jpg'); background-repeat: no-repeat; background-position: top left; }</style>
+          <div id="foto-foto-ludy" class="foto">Ludmila Lopes e Eric Ranieri</div>
           <div class="texto">
             <div class="wrapper-chapeu">
-              <p class="chapeu">que vacilo!</p>
+              <p class="chapeu">agressiva</p>
             </div>
 
             <div class="wrapper-titulo">
               <div class="animated titulo">
-                <span class="animated background">Baggio confirma relacionamento</span>
-                <span class="foreground">Baggio confirma relacionamento</span>
+                <span class="animated background">Ludmila Lopes e Eric Ranieri</span>
+                <span class="foreground">Ludmila Lopes e Eric Ranieri</span>
               </div>
             </div>
           </div>
