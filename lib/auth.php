@@ -1,7 +1,7 @@
 <?php
 
 $_user_ = 'ego';
-$_password_ = 'gustavao';
+$_password_ = 'cataputas';
 
 session_start();
 
