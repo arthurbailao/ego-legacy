@@ -3,7 +3,66 @@
   require_once("./lib/ego.php");
 
   $ego = new Ego("http://ego.globo.com/");
-  $html = <<<EOD
+
+  $html_topo_direita = <<<EOD
+<div class="glb-opec master-wrapper-Top1" id="banner-deferred-opec-position-Top1">
+  <script type="text/javascript">if(!(this.glb&&glb.assets&&glb.assets.deferred)){OAS_RICH("Top1");}</script><img src="http://ads.globo.com/RealMedia/ads/adstream_lx.ads/egov3/home/L10/732492519/Top1/globocom/cyrela_158_346_cyrella_130507/300x100_cyrela_diadasmaes_guardachuva_premium.htm/73524d4b356c45327475554141573643?_RM_EMPTY_&amp;" width="1" height="1">
+</div> 
+  
+<div class="destaque destaque-flexivel-vertical">
+  <div class="chamada ">
+    <a class="animated" href="./profiles/palmito.php" title="Baggio confirma relacionamento">
+      <style type="text/css">#foto-palmito {background-image:url('./imgs/egopalmito2_thumb.jpg'); background-repeat: no-repeat; background-position: top left; }
+      </style>
+      <div id="foto-palmito" class="foto" style="height: 228px;">Baggio confirma relacionamento
+      </div>
+      <div class="texto">
+        <div class="wrapper-chapeu">
+          <p class="chapeu">que vacilo!</p>
+          <div class="wrapper-comentarios">
+            <span class="comentarios">0</span>
+          </div>
+        </div>
+
+        <h2 class="wrapper-titulo">
+          <div class="animated titulo">
+            <span class="animated background">Baggio confirma relacionamento</span>
+            <span class="foreground">Baggio confirma relacionamento</span>
+          </div>
+        </h2>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="destaque destaque-flexivel-vertical" style="margin-bottom: 0px;">
+  <div class="chamada ">
+    <a class="animated" href="http://ego.globo.com/noite/noticia/2013/05/preta-gil-faz-participacao-em-show-da-wanessa-no-rio.html" title="Wanessa e Preta Gil cantam juntas em show no Rio">
+      <style type="text/css">#foto-973d2a5b-cb09-4c87-8f76-029e555ec218 {background-image:url('http://s2.glbimg.com/Q3ensad1FiDE3cZOc0dwAQ4FY-0=/160x0:855x667/300x288/s.glbimg.com/jo/eg/f/original/2013/05/11/mini-wanessa-preta_1.jpg'); background-repeat: no-repeat; background-position: top left; }
+      </style>
+      <div id="foto-973d2a5b-cb09-4c87-8f76-029e555ec218" class="foto" style="height: 227px;">Wanessa e Preta Gil cantam juntas em show no Rio
+      </div>
+      <div class="texto">
+        <div class="wrapper-chapeu">
+          <p class="chapeu">nova turnÊ</p>
+          <div class="wrapper-comentarios">
+            <span class="comentarios">0</span>
+          </div>
+        </div>
+
+        <h2 class="wrapper-titulo">
+          <div class="animated titulo">
+            <span class="animated background">Wanessa e Preta Gil cantam juntas em show no Rio</span>
+            <span class="foreground">Wanessa e Preta Gil cantam juntas em show no Rio</span>
+          </div>
+        </h2>
+      </div>
+    </a>
+  </div>
+</div>
+EOD;
+
+  $html_area_topo = <<<EOD
 <div class="glb-grid-4 glb-primeiro area-topo-esquerda">
   <div class="destaque destaque-principal destaque-principal-vertical-ego">
     <div class="chamada ">
@@ -124,6 +183,7 @@
   </div>
 </div>
 EOD;
-  $ego->replace_html("div.area-topo", $html);
-  $ego->render();
 
+  $ego->replace_html("div.evtrk-topo-direita", $html_topo_direita);
+  $ego->replace_html("div.area-topo", $html_area_topo);
+  $ego->render();
