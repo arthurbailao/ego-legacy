@@ -63,8 +63,8 @@
 EOD;
 
   $html_area_topo = <<<EOD
-<div class="glb-grid-4 glb-primeiro area-topo-esquerda">
-  <div class="destaque destaque-principal destaque-principal-vertical-ego">
+<div class="glb-grid-4 glb-primeiro evtrk evtrk-topo-esquerda">
+  <div class="destaque destaque-principal destaque-principal-vertical">
     <div class="chamada ">
       <a class="animated" href="./profiles/heitor.php" title="Heitor abre o coração">
         <style type="text/css">#foto-heitor {background-image:url('./imgs/egoheitor1_thumb.jpg'); background-repeat: no-repeat; background-position: top left; }</style>            
