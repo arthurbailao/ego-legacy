@@ -37,14 +37,14 @@
 
 <div class="destaque destaque-flexivel-vertical" style="margin-bottom: 0px;">
   <div class="chamada ">
-    <a class="animated" href="http://ego.globo.com/noite/noticia/2013/05/preta-gil-faz-participacao-em-show-da-wanessa-no-rio.html" title="Wanessa e Preta Gil cantam juntas em show no Rio">
-      <style type="text/css">#foto-973d2a5b-cb09-4c87-8f76-029e555ec218 {background-image:url('http://s2.glbimg.com/Q3ensad1FiDE3cZOc0dwAQ4FY-0=/160x0:855x667/300x288/s.glbimg.com/jo/eg/f/original/2013/05/11/mini-wanessa-preta_1.jpg'); background-repeat: no-repeat; background-position: top left; }
+    <a class="animated" href="./profiles/cassia.php" title="Cássia Freitas muda o visual em 2014">
+      <style type="text/css">#foto-cassia {background-image:url('./imgs/cassia_thumb.jpg'); background-repeat: no-repeat; background-position: top left; }
       </style>
-      <div id="foto-973d2a5b-cb09-4c87-8f76-029e555ec218" class="foto" style="height: 227px;">Wanessa e Preta Gil cantam juntas em show no Rio
+      <div id="foto-cassia" class="foto" style="height: 227px;">Cássia Freitas muda o visual em 2014
       </div>
       <div class="texto">
         <div class="wrapper-chapeu">
-          <p class="chapeu">nova turnÊ</p>
+          <p class="chapeu">turbinada</p>
           <div class="wrapper-comentarios">
             <span class="comentarios">0</span>
           </div>
@@ -52,8 +52,8 @@
 
         <h2 class="wrapper-titulo">
           <div class="animated titulo">
-            <span class="animated background">Wanessa e Preta Gil cantam juntas em show no Rio</span>
-            <span class="foreground">Wanessa e Preta Gil cantam juntas em show no Rio</span>
+            <span class="animated background">Cássia Freitas muda o visual em 2014</span>
+            <span class="foreground">Cássia Freitas muda o visual em 2014</span>
           </div>
         </h2>
       </div>
