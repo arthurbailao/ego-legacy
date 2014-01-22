@@ -5,9 +5,6 @@
   $ego = new Ego("http://ego.globo.com/");
 
   $html_topo_direita = <<<EOD
-<div class="glb-opec master-wrapper-Top1" id="banner-deferred-opec-position-Top1">
-  <script type="text/javascript">if(!(this.glb&&glb.assets&&glb.assets.deferred)){OAS_RICH("Top1");}</script><img src="http://ads.globo.com/RealMedia/ads/adstream_lx.ads/egov3/home/L10/732492519/Top1/globocom/cyrela_158_346_cyrella_130507/300x100_cyrela_diadasmaes_guardachuva_premium.htm/73524d4b356c45327475554141573643?_RM_EMPTY_&amp;" width="1" height="1">
-</div> 
   
 <div class="destaque destaque-flexivel-vertical">
   <div class="chamada ">
@@ -37,14 +34,14 @@
 
 <div class="destaque destaque-flexivel-vertical" style="margin-bottom: 0px;">
   <div class="chamada ">
-    <a class="animated" href="./profiles/cassia.php" title="Cássia Freitas muda o visual em 2014">
-      <style type="text/css">#foto-cassia {background-image:url('./imgs/cassia_thumb.jpg'); background-repeat: no-repeat; background-position: top left; }
+    <a class="animated" href="./profiles/gusta.php" title="Gustavo Martins protagoniza polêmica">
+      <style type="text/css">#foto-gusta {background-image:url('./imgs/gusta_thumb.jpg'); background-repeat: no-repeat; background-position: top left; }
       </style>
-      <div id="foto-cassia" class="foto" style="height: 227px;">Cássia Freitas muda o visual em 2014
+      <div id="foto-gusta" class="foto" style="height: 227px;">Gustavo Martins protagoniza polêmica
       </div>
       <div class="texto">
         <div class="wrapper-chapeu">
-          <p class="chapeu">turbinada</p>
+          <p class="chapeu">Amor e Ódio</p>
           <div class="wrapper-comentarios">
             <span class="comentarios">0</span>
           </div>
@@ -52,8 +49,8 @@
 
         <h2 class="wrapper-titulo">
           <div class="animated titulo">
-            <span class="animated background">Cássia Freitas muda o visual em 2014</span>
-            <span class="foreground">Cássia Freitas muda o visual em 2014</span>
+            <span class="animated background">Gustavo Martins protagoniza polêmica</span>
+            <span class="foreground">Gustavo Martins protagoniza polêmica</span>
           </div>
         </h2>
       </div>
